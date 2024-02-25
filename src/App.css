@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 50px;
+    background-color: darkred;
+    text-align: center;
+}
+
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+ul li:hover{
+    color: darkgoldenrod;
+    text-decoration: dotted;
+}
+
+.Bg{
+ width: 100%;
+ height: 550px;
+ background-image: url(/public/images/banner-bg.png);
+ background-size: cover;
+ background-position: center;
+}
+
+.Box{
+    width: 70%;
+    height: 190px;
+    margin-left: 15%;
+}
+
+.H1{
+    padding-top: 20px;
+    font-size: 42px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.con2{
+    margin: 20px 10% 20px 10%;
+}
+
+.H2{
+    font-size: 45px;
+    font-weight: 700;
+    color: darkred;
+    text-align: center;  
+}
+
+.CardCon{
+    display: inline-flex;
+}
+
+.Card{
+    width: 360px;
+    height: 520px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 1px -1px 24px 1px darkgoldenrod;
+    margin: 20px 20px 20px 20px;
+}
+
+.Card:hover{
+    box-shadow: 1px -1px 24px 1px darkred;
+}
+
+.H3{
+    font-size: 28px;
+    font-weight: 600;
+    padding: 12px;
+    color: darkgoldenrod;
+}
+
+.H4{
+    font-size: 18px;
+    color: darkred;
+    padding: 8px;
+    font-weight: 800;
+}
+
+.Cardimg{
+    height: 364px;
+    width: 275px;
+}
+
+.price{
+    color: black;
+    font-weight: 600;
+}
+
+.buy{
+    width: 320px;
+}
+
+.L1{
+    float: left;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 800;
+    color: darksalmon;
+}
+
+.R1{
+    float: right;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: darkgrey;
+}
+
+.L1:hover{
+    color: darkred;
+}
+
+.R1:hover{
+    color: black;
+}
+
+footer{
+    background-color: darkred;
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.H5{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+.Emailpart{
+    height: 51px;
+    border-bottom: 2px solid white;
+    width: 700px;
+    margin: 40px 20px 40px 380px;
+}
+
+.Epart{
+    width: 360px;
+    height: 50px;
+    color: white;
+    background-color: darkred;
+    font-size: 22px;
+    border: none;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Epart:hover{
+    border-color: darkred;
+    text-decoration: none;
+}
+
+.List:hover{
+    color: darksalmon;
+}
+
+.C1{
+    font-size: 22px;
+}
+
+.C2{
+    margin-top: 20px;
+}
+
+.C3{
+    margin-top: 20px;
+}
